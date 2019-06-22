@@ -1,0 +1,1 @@
+web_text_count
