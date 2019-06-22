@@ -1,0 +1,10 @@
+hahaha
+<h1>总字数为{{count}}字</h1>
+<h2>输入文章</h2>
+{{ text }}
+<br>
+
+<h2>出现频率</h2>
+{% for word,count in max %}
+<h5>{{ word }} - {{ count }}</h5>
+{% endfor %}
